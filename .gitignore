@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+package-lock.json
+yarn.lock
 
 # testing
 /coverage
@@ -34,3 +36,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore logs and other generated files
+*.log
+*.log.*
+logs/
+
+# Ignore user-specific files and directories
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+.vscode/
